@@ -23,7 +23,7 @@ Comentário de uma linha - são comentários feitos adicionando o # no inicio de
 
 Comentário de várias linhas - são feitos usando um conjunto de aspas triplas ''' ou """ Tudo que estiver dentro delas será consderado comentário.
 
-## Váriaveis
+## Variáveis
 Um nome associado a um valor. Se queremos acessar esse valor, dado ou informação, precisamos recorrer ao seu nome: a variavel. Exemplo, a idade do aluno é 5 - então a variavel será 'idade' e o valor dessa variavel é '5'.   No código ficará idade = 5 | utilizando a função print(idade) e a resposta será 5. 
 
 #Tipos de variáveis
