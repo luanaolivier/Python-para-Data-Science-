@@ -22,3 +22,19 @@ Ferramenta do google que permite escrever e executar cod em python, ele funciona
 Comentário de uma linha - são comentários feitos adicionando o # no inicio de uma linha de código. Tudo o que vier depois do símbolo # será considerado um comentário. 
 
 Comentário de várias linhas - são feitos usando um conjunto de aspas triplas ''' ou """ Tudo que estiver dentro delas será consderado comentário.
+
+## Váriaveis
+Um nome associado a um valor. Se queremos acessar esse valor, dado ou informação, precisamos recorrer ao seu nome: a variavel. Exemplo, a idade do aluno é 5 - então a variavel será 'idade' e o valor dessa variavel é '5'.   No código ficará idade = 5 | utilizando a função print(idade) e a resposta será 5. 
+
+#Tipos de variáveis
+clase int - armazena números inteiros, positivo e negativo - exp: 1, 2, 3, 100 ou -5, -6, -9 
+
+classe float - Armazena números flutuantes, números que possuem uma parte fracionada ou reais, números com virgula - exp: 3.14, 100.0 ou -0.5
+
+classe str - Armazena strings, ou seja um texto ou sequencia de caracteres. As strings são geralmente usadas para armazenar textos e são delimitadas por aspas simples ou duplas - exp: "Olá!" , 'Aluno' ou "1234"
+
+classe bool - Armazena valores logicos verdadeiros ou falsos. Variaveis booleanas.Sempre a primeira letra maiuscula True False - exp: True e False
+
+#Função Type
+A função type() pode ser útil para verificar o tipo de dado de uma variavel e determinar a melhor forma de manipular ou processar os dados. Para trabalhar com estatística em dados financeiros podemos verificar se os dados que temos são valores numéricos utilizando type - essa função retorna uma classe que representa o tipo de objeto passado como argumento. Dessa forma podemos usar o type para entender o tipo de dado que temos e ajusta-lo conforme a necessidade de uma análise. 
+
