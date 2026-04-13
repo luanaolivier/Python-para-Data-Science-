@@ -42,12 +42,35 @@ A função type() pode ser útil para verificar o tipo de dado de uma variavel e
 Formada por texto com aspas simples ' ' ou aspas duplas " ". Usamos str como string 
 Os métodos são funções associadas a objetos em python. Usamos muita manipulaçãp dos objetos por isso os métodos são importantes. Alguns métodos: 
 
-* upper() = PARA DEIXAR O TEXTO EM MAIUSCULO
-* lower() = para deixar o texto em minusculo
-* strip() = remove os espaços em branco
-* replace('antigo','atual') = para corrigor algo que está escrito errado por exemplo, coloca o que será corrigido no caso o antigo e por qual vai ser trocado atual.
+* variavel.upper() = PARA DEIXAR O TEXTO EM MAIUSCULO
+* variavel.lower() = para deixar o texto em minusculo
+* variavel.strip() = remove os espaços em branco
+* variavel.replace('antigo','atual') = para corrigor algo que está escrito errado por exemplo, coloca o que será corrigido no caso o antigo e por qual vai ser trocado atual.
 
 Essas ferramentas são básicas para "limpar" e "organizar" as informações básicas que chegam ao banco e dados. 
 
 ## Coletando Dados
+* input() = É uma caixa de perguntas, que aparece na tela para digitarmos a resposta - mas no caso nós que faremos a pergunta. Ela espera que a pessoa digite algo e aperte o "enter". Tudo que é digitado é coletado e o input nos devolve essa informação.
+
+Para usar o input, precisamos de um lugar para guardar a informação que o usuario digitou, nesse caso será uma variavel. 
+Exeplo; nome = input () - nome é a variavel.
+
+Para que o usuario saiba o que digitar, preciso colocar uma mensagem dentro do parenteses do input().
+Exemplo; nome = input ('Escreva seu nome:') - a mensagem vai aparecer na tela e a pessoa vai digitar o nome.
+
+O input sempre devolve string, que são textos.
+
+Existem funções para conversão de valores:
+* Inteiros, numeros inteiros: int() 
+* Float para numeros com . : float()
+* String: str(dado_para_conversao)
+* Booleano: bool(dado_para_conversao)
+
+Aprendi a utilizar a formatação f-string (ou formatação de string), na qual colocamos um f antes da criação da string e as variáveis entre chaves {}. 
+Exemplo: 
+nome = input('Escreva seu nome:')
+idade = input('Qual sua idade?')
+altura = float(input('Qual sua altura?'))
+print(f'Olá {nome}, você tem {idade} anos e mede {altura} metros!')
+
 
