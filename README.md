@@ -6,7 +6,7 @@ Este repositório contém meus estudos iniciais em Python aplicados à análise 
 - Google Colab
 
 ## Objetivo
-Aprender e praticar conceitos de análise de dados e inteligência artificial.
+Aprender e práticar conceitos de análise de dados e inteligência artificial.
 
 ## Python
 O que é python? Linguagem de programação de alto nível. Interpretada orientada a objetos 
@@ -38,3 +38,5 @@ classe bool - Armazena valores logicos verdadeiros ou falsos. Variaveis booleana
 #Função Type
 A função type() pode ser útil para verificar o tipo de dado de uma variavel e determinar a melhor forma de manipular ou processar os dados. Para trabalhar com estatística em dados financeiros podemos verificar se os dados que temos são valores numéricos utilizando type - essa função retorna uma classe que representa o tipo de objeto passado como argumento. Dessa forma podemos usar o type para entender o tipo de dado que temos e ajusta-lo conforme a necessidade de uma análise. 
 
+#Strings 
+Formada por texto com aspas simples ' ' ou aspas duplas " " 
