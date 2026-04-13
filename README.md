@@ -35,8 +35,19 @@ classe str - Armazena strings, ou seja um texto ou sequencia de caracteres. As s
 
 classe bool - Armazena valores logicos verdadeiros ou falsos. Variaveis booleanas.Sempre a primeira letra maiuscula True False - exp: True e False
 
-#Função Type
+# Função Type
 A função type() pode ser útil para verificar o tipo de dado de uma variavel e determinar a melhor forma de manipular ou processar os dados. Para trabalhar com estatística em dados financeiros podemos verificar se os dados que temos são valores numéricos utilizando type - essa função retorna uma classe que representa o tipo de objeto passado como argumento. Dessa forma podemos usar o type para entender o tipo de dado que temos e ajusta-lo conforme a necessidade de uma análise. 
 
-#Strings 
-Formada por texto com aspas simples ' ' ou aspas duplas " " 
+## Strings 
+Formada por texto com aspas simples ' ' ou aspas duplas " ". Usamos str como string 
+Os métodos são funções associadas a objetos em python. Usamos muita manipulaçãp dos objetos por isso os métodos são importantes. Alguns métodos: 
+
+* upper() = PARA DEIXAR O TEXTO EM MAIUSCULO
+* lower() = para deixar o texto em minusculo
+* strip() = remove os espaços em branco
+* replace('antigo','atual') = para corrigor algo que está escrito errado por exemplo, coloca o que será corrigido no caso o antigo e por qual vai ser trocado atual.
+
+Essas ferramentas são básicas para "limpar" e "organizar" as informações básicas que chegam ao banco e dados. 
+
+## Coletando Dados
+
