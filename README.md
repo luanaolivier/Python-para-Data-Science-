@@ -1,3 +1,5 @@
+###AULA 1 COMEÇANDO COM PYTHON
+
 # Python para Data Science
 Este repositório contém meus estudos iniciais em Python aplicados à análise de dados.
 
@@ -22,6 +24,8 @@ Ferramenta do google que permite escrever e executar cod em python, ele funciona
 Comentário de uma linha - são comentários feitos adicionando o # no inicio de uma linha de código. Tudo o que vier depois do símbolo # será considerado um comentário. 
 
 Comentário de várias linhas - são feitos usando um conjunto de aspas triplas ''' ou """ Tudo que estiver dentro delas será consderado comentário.
+
+### AULA 2 - MANIPULANDO DADOS NO PYTHON
 
 ## Variáveis
 Um nome associado a um valor. Se queremos acessar esse valor, dado ou informação, precisamos recorrer ao seu nome: a variavel. Exemplo, a idade do aluno é 5 - então a variavel será 'idade' e o valor dessa variavel é '5'.   No código ficará idade = 5 | utilizando a função print(idade) e a resposta será 5. 
@@ -73,4 +77,13 @@ idade = input('Qual sua idade?')
 altura = float(input('Qual sua altura?'))
 print(f'Olá {nome}, você tem {idade} anos e mede {altura} metros!')
 
+O input é uma função, que faz a pergunta ao usuario e guarda essa informação.O input() sempre retorna um texto, uma string, mesmo que o usuario digite um numero, o python entende o numero como texto - é aqui que o int() entra, essa função converte um texto em número inteiro. então quando usamos int(input()) estamos dizendo "pegue o que o usuario digitou (input) e transforme isso em um número inteiro (int)
 
+### AULA 3 - ESTRUTURAS CONDICIONAIS
+
+# O que são estruturas condicionais? Permitem a execução de instruções por uma condição, se for verdadeira alguma instrução será rodada - se for FALSA outra instrução será rodada. 
+
+* SE condição : instruções caso a condição seja VERDADEIRA
+* SENÃO : instruções caso a condição seja FALSA
+
+# IF = 
