@@ -87,4 +87,45 @@ Permitem a execução de instruções por uma condição, se for verdadeira algu
 * SE condição : instruções caso a condição seja VERDADEIRA
 * SENÃO : instruções caso a condição seja FALSA
 
-### IF = 
+## IF 
+Estrutura conficional que permite que todo conjunto seja executado caso a condição especifica seja verdadeira. o cod ficara assim
+
+if condição:
+  # faça isso 
+
+if 2<7:
+  print('condição verdadeira')
+condição verdadeira
+
+## ELSE
+estrutura condicional para dizer que algo é falso. 
+
+else condição: 
+  # faça isso
+
+if 2>7:
+  print('condição verdadeira')
+else :
+  print('condição falsa')
+
+### Operadores relacionais
+
+* Maior que (>)
+* Menor que (<)
+* Maior ou igual (>=)
+* Menor ou igual (<=)
+* Igual (==)
+* Diferente (!=)
+
+## ELIF 
+
+SENÃO, SE 
+
+## OPERADORES LÓGICOS
+
+Símbolos ou palavras chave que são usados para combinar operandos em uma unica expressão 
+
+* AND = E -> só retornará resultado verdadeiro se os dois operandos logicos que compoe forem verdadeiros.
+* OR = OU -> será dada como falsa apenas quando duas entradas forem falsas.No caso de uma ou duas condicoes verdadeiras. Ela também será dada como verdadeira.
+* NOT -> inverte o resultado booleano. Se colocar um not e o true - esse true se transformara em false. 
+
